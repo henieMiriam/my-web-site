@@ -1,0 +1,48 @@
+body {
+  background-color: silver;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../images/5.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-position: top;
+  background-size: cover;
+
+}
+
+.menu-bar {
+  max-width: 100%;
+  align-items: stretch;
+  display: inline-block;
+}
+
+.burguer {
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+}
+
+
+.col-6 {
+  border-radius: 45%;
+  max-width: 80%;
+}
+
+li {
+  display: inline-block;
+  width: 15%;
+  float: left;
+
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding: 2em;
+}
