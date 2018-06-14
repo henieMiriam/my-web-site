@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  margin: 20px;
+  margin: 7px;
   align-items: center;
 }
 
@@ -75,7 +75,7 @@ footer {
   background-color: #6F84FF;
 }
 
-@media (min-width: 650px) {
+@media (min-width:220px)and(max-width: 425px) {
   ul{
     display: inline-block;
     width: 90%;
@@ -84,4 +84,10 @@ footer {
   .container-first {
     width: 100%;
   }
+
+  .col-4{
+    
+  }
+
+
 }
