@@ -75,17 +75,20 @@ footer {
   background-color: #6F84FF;
 }
 
-@media (min-width:220px)and(max-width: 425px) {
+/** Primer Breakpoint de bootstrap **/
+@media all and (max-width:450px){
+    [class *='col-'] {
+       width: 100%;
+    }
+}
+
+@media (min-width:450px) {
   ul{
     display: inline-block;
     width: 90%;
   }
 
   .container-first {
-    width: 100%;
-  }
-
-  .col-4{
     width: 100%;
   }
 
