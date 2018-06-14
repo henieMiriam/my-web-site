@@ -19,6 +19,10 @@ header {
   background-size: cover;
 
 }
+h2 {
+  width: 100%;
+}
+
 .menu{
   float: right;
   margin: 15px;
